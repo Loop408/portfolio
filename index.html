@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>S Poorna Chandu | Portfolio | AI & ML Enthusiast & Full-Stack Developer</title>
+  
+  <!-- Meta Descriptions & SEO -->
+  <meta name="description" content="Portfolio of S Poorna Chandu, CSE (AI & ML) student, Full-Stack Developer, and Machine Learning Engineer. Creator of HackVibe, DermaScan, and RouteMate.">
+  <meta name="keywords" content="S Poorna Chandu, Poorna Chandu, Portfolio, AI, ML, Machine Learning, Full-Stack Developer, HackVibe, DermaScan">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="S Poorna Chandu | AI & ML Enthusiast & Full-Stack Developer">
+  <meta property="og:description" content="Showcase of projects, experience, and technical skills in Full-Stack development and Machine Learning.">
+  <meta property="og:type" content="website">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+  
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Custom Cursor Sparkles/Glow -->
+  <div class="cursor-glow" id="cursor-glow"></div>
+
+  <!-- Background Decorative Orbs -->
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+  <div class="orb orb-3"></div>
+
+  <!-- Navigation -->
+  <header class="header">
+    <div class="nav-container">
+      <a href="#" class="logo-text">Poorna<span>.dev</span></a>
+      
+      <nav class="nav-links">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#certifications" class="nav-link">Certifications</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-right">
+        <a href="#contact" class="btn btn-primary btn-sm">Hire Me</a>
+        <button class="mobile-toggle" aria-label="Toggle Menu">
+          <i data-lucide="menu"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu">
+    <nav class="mobile-nav-links">
+      <a href="#about" class="mobile-link">About</a>
+      <a href="#skills" class="mobile-link">Skills</a>
+      <a href="#experience" class="mobile-link">Experience</a>
+      <a href="#projects" class="mobile-link">Projects</a>
+      <a href="#certifications" class="mobile-link">Certifications</a>
+      <a href="#contact" class="mobile-link">Contact</a>
+    </nav>
+  </div>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <div class="badge-container">
+          <span class="badge"><span class="pulse"></span>Open for Opportunities</span>
+        </div>
+        <h1 class="hero-title">
+          Hey, I'm <br>
+          <span class="gradient-text">S Poorna Chandu</span>
+        </h1>
+        <h2 class="hero-subtitle">
+          I build <span id="typewriter" class="typing-text"></span>
+        </h2>
+        <p class="hero-description">
+          B.Tech CSE (AI & ML) student at Vignan Institute of Technology & Science. Specializing in full-stack engineering, deep learning systems, and interactive AI solutions. Eager to solve real-world problems at scale.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-gradient">
+            <span>View My Work</span>
+            <i data-lucide="arrow-up-right"></i>
+          </a>
+          <a href="#contact" class="btn btn-outline">
+            <span>Get In Touch</span>
+            <i data-lucide="mail"></i>
+          </a>
+        </div>
+        
+        <div class="social-links">
+          <a href="https://github.com/loop408" target="_blank" aria-label="GitHub"><i data-lucide="github"></i></a>
+          <a href="https://linkedin.com/in/poornachandu-sarukolla" target="_blank" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a>
+          <a href="mailto:poornachandusarukolla27@gmail.com" aria-label="Email"><i data-lucide="mail"></i></a>
+        </div>
+      </div>
+      
+      <!-- Interactive Tech Stack Wheel / Visual Component -->
+      <div class="hero-visual">
+        <div class="visual-card">
+          <div class="code-header">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+            <span class="file-name">poornachandu.py</span>
+          </div>
+          <pre class="code-body"><code><span class="keyword">class</span> <span class="class-name">Developer</span>:
+    <span class="keyword">def</span> <span class="method-name">__init__</span>(<span class="variable">self</span>):
+        <span class="variable">self</span>.name = <span class="string">"S Poorna Chandu"</span>
+        <span class="variable">self</span>.role = [
+            <span class="string">"AI/ML Engineer"</span>, 
+            <span class="string">"Full-Stack Developer"</span>
+        ]
+        <span class="variable">self</span>.metrics = {
+            <span class="string">"GPA"</span>: <span class="number">8.95</span>,
+            <span class="string">"skin_classifier_acc"</span>: <span class="number">0.87</span>,
+            <span class="string">"heart_pred_acc"</span>: <span class="number">0.85</span>
+        }
+
+    <span class="keyword">def</span> <span class="method-name">focus</span>(<span class="variable">self</span>):
+        <span class="keyword">return</span> <span class="string">"Scalable AI & Web Apps"</span></code></pre>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">About Me</span>
+          <h2 class="section-title">Bridging Code and Cognitive Systems</h2>
+        </div>
+        
+        <div class="about-grid">
+          <div class="about-info">
+            <p class="about-text">
+              I am a CSE student specializing in Artificial Intelligence and Machine Learning at Vignan Institute of Technology & Science. Over the last 5 semesters, I've maintained a <strong>CGPA of 8.95/10</strong> while actively bridging academic knowledge with hands-on software applications.
+            </p>
+            <p class="about-text">
+              My experience spans full-stack web development (React, Supabase, Tailwind, Node) and deep learning systems (CNNs, classification, regression). I love working in collaborative developer teams and taking concepts all the way from research to live deployments serving real users.
+            </p>
+            
+            <div class="stats-row">
+              <div class="stat-card">
+                <span class="stat-num">8.95</span>
+                <span class="stat-label">CGPA (5 Semesters)</span>
+              </div>
+              <div class="stat-card">
+                <span class="stat-num">87%</span>
+                <span class="stat-label">DermaScan CNN Accuracy</span>
+              </div>
+              <div class="stat-card">
+                <span class="stat-num">500+</span>
+                <span class="stat-label">HackVibe Registrations</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="about-details">
+            <div class="detail-card">
+              <div class="detail-icon"><i data-lucide="graduation-cap"></i></div>
+              <div class="detail-content">
+                <h3>Education</h3>
+                <p><strong>B.Tech - Computer Science (AI & ML)</strong></p>
+                <p class="text-muted">Vignan Institute of Technology & Science, Hyderabad (2023 - 2027)</p>
+              </div>
+            </div>
+            <div class="detail-card">
+              <div class="detail-icon"><i data-lucide="map-pin"></i></div>
+              <div class="detail-content">
+                <h3>Location</h3>
+                <p>Hyderabad, India</p>
+              </div>
+            </div>
+            <div class="detail-card">
+              <div class="detail-icon"><i data-lucide="mail"></i></div>
+              <div class="detail-content">
+                <h3>Contact Details</h3>
+                <p>Email: poornachandusarukolla27@gmail.com</p>
+                <p>Phone: +91 8639060398</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills-section section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Expertise</span>
+          <h2 class="section-title">My Tech Stack</h2>
+        </div>
+        
+        <div class="skills-grid">
+          <!-- Languages -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <i data-lucide="code-2"></i>
+              <h3>Languages</h3>
+            </div>
+            <ul class="skills-list">
+              <li>Python</li>
+              <li>Java</li>
+              <li>JavaScript</li>
+              <li>TypeScript</li>
+              <li>C</li>
+              <li>HTML & CSS</li>
+            </ul>
+          </div>
+
+          <!-- Frontend -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <i data-lucide="layout"></i>
+              <h3>Frontend</h3>
+            </div>
+            <ul class="skills-list">
+              <li>React.js</li>
+              <li>Vite</li>
+              <li>Tailwind CSS</li>
+              <li>Streamlit</li>
+              <li>Flask</li>
+            </ul>
+          </div>
+
+          <!-- AI / ML -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <i data-lucide="brain-circuit"></i>
+              <h3>AI & Machine Learning</h3>
+            </div>
+            <ul class="skills-list">
+              <li>TensorFlow / Keras</li>
+              <li>Scikit-Learn</li>
+              <li>OpenCV</li>
+              <li>MediaPipe</li>
+              <li>Deep Learning (CNNs)</li>
+              <li>Generative AI & LLMs</li>
+            </ul>
+          </div>
+
+          <!-- Databases & Tools -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <i data-lucide="database"></i>
+              <h3>Databases & Tools</h3>
+            </div>
+            <ul class="skills-list">
+              <li>MySQL</li>
+              <li>Supabase</li>
+              <li>Firebase</li>
+              <li>Git / GitHub</li>
+              <li>Docker</li>
+              <li>Hostinger / Vercel</li>
+              <li>SendGrid</li>
+              <li>PHP</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience section" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">History</span>
+          <h2 class="section-title">Work Experience</h2>
+        </div>
+        
+        <div class="timeline">
+          <!-- Item 1 -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">Sep 2025 - Oct 2025</div>
+            <div class="timeline-content">
+              <h3>AI & Cloud Technology Intern</h3>
+              <p class="company">AICTE & Edunet Foundation | IBM SkillsBuild</p>
+              <ul>
+                <li>Collaborated with a cohort of peers covering cloud models (IaaS, PaaS, SaaS), IBM Cloud pipelines, and AI integration patterns.</li>
+                <li>Earned IBM SkillsBuild badges in AI Fundamentals and Web Development Fundamentals.</li>
+                <li>Applied teamwork and problem-solving to build and test AI-powered prototypes using cloud-hosted ML APIs.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">Aug 2025 - Sep 2025</div>
+            <div class="timeline-content">
+              <h3>Front End Web Development Intern</h3>
+              <p class="company">AICTE & Edunet Foundation | IBM SkillsBuild</p>
+              <ul>
+                <li>Studied responsive UI design, JavaScript DOM manipulation, CSS frameworks, and accessibility.</li>
+                <li>Applied frontend skills directly to production work on <strong>HackVibe (hackvibe.in)</strong>, a React + TypeScript hackathon platform serving hundreds of participants.</li>
+                <li>Improved participant engagement metrics by 20% through optimization.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Item 3 -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">Apr 2025 - May 2025</div>
+            <div class="timeline-content">
+              <h3>Foundations of AI Intern</h3>
+              <p class="company">Microsoft & Edunet Foundation | AICTE</p>
+              <ul>
+                <li>Improved baseline model accuracy by 15% through iterative hyperparameter tuning using Scikit-learn, achieving 87% accuracy.</li>
+                <li>Built and deployed <strong>DermaScan</strong>, a TensorFlow/Keras CNN skin condition classifier trained on 5,000+ images.</li>
+                <li>Delivered real-time diagnoses via Streamlit UI in under 3 seconds.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Work</span>
+          <h2 class="section-title">Featured Projects</h2>
+        </div>
+        
+        <div class="project-filters">
+          <button class="filter-btn active" data-filter="all">All Projects</button>
+          <button class="filter-btn" data-filter="web">Web Apps</button>
+          <button class="filter-btn" data-filter="ai-ml">AI & ML</button>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: HackVibe -->
+          <div class="project-card" data-category="web">
+            <div class="project-card-header">
+              <span class="category-tag">Full-Stack Web</span>
+              <span class="project-date">Jul - Oct 2025</span>
+            </div>
+            <h3 class="project-card-title">HackVibe</h3>
+            <p class="project-card-desc">National-Level Hackathon Platform serving 500+ registrations, featuring dynamic registration, team management, and secure email OTPs.</p>
+            <div class="tech-tags">
+              <span>React</span>
+              <span>TypeScript</span>
+              <span>Tailwind CSS</span>
+              <span>Supabase</span>
+              <span>MySQL</span>
+              <span>PHP</span>
+            </div>
+            <button class="btn btn-link read-more-btn" onclick="openProjectModal('hackvibe')">
+              <span>Explore Details</span>
+              <i data-lucide="arrow-right"></i>
+            </button>
+          </div>
+
+          <!-- Project 2: DermaScan -->
+          <div class="project-card" data-category="ai-ml">
+            <div class="project-card-header">
+              <span class="category-tag">Computer Vision</span>
+              <span class="project-date">Apr - May 2025</span>
+            </div>
+            <h3 class="project-card-title">DermaScan</h3>
+            <p class="project-card-desc">TensorFlow/Keras CNN classifier trained on 5,000+ images, giving clinical classification predictions via Streamlit under 3 seconds.</p>
+            <div class="tech-tags">
+              <span>TensorFlow</span>
+              <span>Keras</span>
+              <span>CNN</span>
+              <span>Streamlit</span>
+              <span>Python</span>
+            </div>
+            <button class="btn btn-link read-more-btn" onclick="openProjectModal('dermascan')">
+              <span>Explore Details</span>
+              <i data-lucide="arrow-right"></i>
+            </button>
+          </div>
+
+          <!-- Project 3: Heart Disease Prediction -->
+          <div class="project-card" data-category="ai-ml">
+            <div class="project-card-header">
+              <span class="category-tag">Machine Learning</span>
+              <span class="project-date">2025</span>
+            </div>
+            <h3 class="project-card-title">Heart Disease Predictor</h3>
+            <p class="project-card-desc">Logistic Regression classifier trained on UCI dataset (13 features), achieving 85%+ accuracy with streamlined risk assessment dashboard.</p>
+            <div class="tech-tags">
+              <span>Python</span>
+              <span>Scikit-learn</span>
+              <span>Streamlit</span>
+              <span>Pickle</span>
+            </div>
+            <button class="btn btn-link read-more-btn" onclick="openProjectModal('heart')">
+              <span>Explore Details</span>
+              <i data-lucide="arrow-right"></i>
+            </button>
+          </div>
+
+          <!-- Project 4: RouteMate -->
+          <div class="project-card" data-category="web">
+            <div class="project-card-header">
+              <span class="category-tag">Algorithms & Python</span>
+              <span class="project-date">2025</span>
+            </div>
+            <h3 class="project-card-title">RouteMate</h3>
+            <p class="project-card-desc">Food delivery optimizer utilizing a greedy shortest-path algorithm and OpenRouteService, reducing travel distance by ~30%.</p>
+            <div class="tech-tags">
+              <span>Python</span>
+              <span>Folium</span>
+              <span>Geopy</span>
+              <span>OpenRouteService</span>
+              <span>Tkinter</span>
+            </div>
+            <button class="btn btn-link read-more-btn" onclick="openProjectModal('routemate')">
+              <span>Explore Details</span>
+              <i data-lucide="arrow-right"></i>
+            </button>
+          </div>
+
+          <!-- Project 5: Transaction Analysis Dashboard -->
+          <div class="project-card" data-category="web">
+            <div class="project-card-header">
+              <span class="category-tag">Data Analysis</span>
+              <span class="project-date">2025</span>
+            </div>
+            <h3 class="project-card-title">Finance EDA Dashboard</h3>
+            <p class="project-card-desc">Interactive Streamlit dashboard presenting financial transaction anomaly detection, fraud signals, and spending trends.</p>
+            <div class="tech-tags">
+              <span>Python</span>
+              <span>Pandas</span>
+              <span>Matplotlib</span>
+              <span>Streamlit</span>
+            </div>
+            <button class="btn btn-link read-more-btn" onclick="openProjectModal('finance')">
+              <span>Explore Details</span>
+              <i data-lucide="arrow-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="certifications section" id="certifications">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Validation</span>
+          <h2 class="section-title">Certifications & Achievements</h2>
+        </div>
+        
+        <div class="certifications-grid">
+          <div class="cert-card">
+            <div class="cert-icon"><i data-lucide="award"></i></div>
+            <div class="cert-details">
+              <h4>NPTEL (IIT Kharagpur)</h4>
+              <p>Programming in Java (Elite Certificate) — Score: 80%</p>
+              <span class="cert-date">Jul - Oct 2025</span>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-icon"><i data-lucide="award"></i></div>
+            <div class="cert-details">
+              <h4>IBM SkillsBuild</h4>
+              <p>AI Fundamentals & Web Development Fundamentals</p>
+              <span class="cert-date">Oct 2025</span>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-icon"><i data-lucide="award"></i></div>
+            <div class="cert-details">
+              <h4>Adobe + UNICEF YuWaah</h4>
+              <p>Design Fundamentals with AI — Score: 100%</p>
+              <span class="cert-date">May 2026</span>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-icon"><i data-lucide="award"></i></div>
+            <div class="cert-details">
+              <h4>Infosys Springboard</h4>
+              <p>Machine Learning Fundamentals</p>
+              <span class="cert-date">Jul 2025</span>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-icon"><i data-lucide="award"></i></div>
+            <div class="cert-details">
+              <h4>FutureSkills Prime / NASSCOM</h4>
+              <p>Gen AI 101 | Digital Edge 101 | Gen AI Tool Specialist</p>
+              <span class="cert-date">Mar 2026</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Get in Touch</span>
+          <h2 class="section-title">Let's Connect</h2>
+        </div>
+        
+        <div class="contact-layout">
+          <div class="contact-info">
+            <h3>Have an interesting project in mind?</h3>
+            <p>I am looking for challenging internships, collaborations on open-source machine learning projects, or full-stack engineering roles.</p>
+            
+            <div class="contact-details-list">
+              <div class="contact-detail-item">
+                <i data-lucide="mail"></i>
+                <div>
+                  <h4>Email</h4>
+                  <a href="mailto:poornachandusarukolla27@gmail.com">poornachandusarukolla27@gmail.com</a>
+                </div>
+              </div>
+              <div class="contact-detail-item">
+                <i data-lucide="phone"></i>
+                <div>
+                  <h4>Phone</h4>
+                  <a href="tel:+918639060398">+91 8639060398</a>
+                </div>
+              </div>
+              <div class="contact-detail-item">
+                <i data-lucide="linkedin"></i>
+                <div>
+                  <h4>LinkedIn</h4>
+                  <a href="https://linkedin.com/in/poornachandu-sarukolla" target="_blank">linkedin.com/in/poornachandu-sarukolla</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form-container">
+            <form class="contact-form" id="contact-form">
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" required placeholder="John Doe">
+              </div>
+              <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" required placeholder="john@example.com">
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" rows="5" required placeholder="Let's build something..."></textarea>
+              </div>
+              <button type="submit" class="btn btn-gradient btn-full">
+                <span>Send Message</span>
+                <i data-lucide="send"></i>
+              </button>
+              <div class="form-feedback" id="form-feedback"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Project Details Modals -->
+  <div class="modal" id="project-modal">
+    <div class="modal-overlay" onclick="closeProjectModal()"></div>
+    <div class="modal-content">
+      <button class="modal-close" onclick="closeProjectModal()"><i data-lucide="x"></i></button>
+      
+      <div id="modal-project-details">
+        <!-- Content injected dynamically via JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>&copy; 2026 S Poorna Chandu. All rights reserved.</p>
+      <div class="footer-socials">
+        <a href="https://github.com/loop408" target="_blank"><i data-lucide="github"></i></a>
+        <a href="https://linkedin.com/in/poornachandu-sarukolla" target="_blank"><i data-lucide="linkedin"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
